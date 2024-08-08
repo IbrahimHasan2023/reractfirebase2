@@ -1,0 +1,30 @@
+.hand {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 230, 230, 0.4) 50%
+    ),
+    url("../../Images/shampoo.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* this style for home ,about ,contact in navbar */
+.same {
+  color: black !important;
+  font-size: 18px;
+}
+.same:hover {
+  color: blue !important;
+  border-left: 3px solid #0877ccd2;
+  border-right: 3px solid #0877ccd2;
+  font-size: 20px;
+}
+
+
+.active {
+  color: blue !important;
+  border-left: 3px solid #0877ccd2;
+  border-right: 3px solid #0877ccd2;
+  font-size: 20px;
+}

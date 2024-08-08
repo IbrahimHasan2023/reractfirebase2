@@ -1,0 +1,34 @@
+/* this is for button register and login in addition with hover*/
+.submit {
+  padding: 15px;
+  width: 100px;
+  border-radius: 5px;
+  color: seashell;
+  font-weight: bold;
+  background-color: #0b5dd5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.submit:hover {
+  color: #0b5dd5;
+  background-color: seashell;
+}
+
+/* this style for button logout in addition with hover below */
+.submit-l {
+  padding: 15px;
+  width: 130px;
+  border-radius: 5px;
+  color: seashell;
+  font-weight: bold;
+  background-color: #900707;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.5s;
+}
+.submit-l:hover {
+  color: #900707;
+  background-color: seashell;
+}
